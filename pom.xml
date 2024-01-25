@@ -10,11 +10,11 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.course-hub.app</groupId>
-    <artifactId>course-hub</artifactId>
+    <groupId>com.education-hub.app</groupId>
+    <artifactId>education-hub</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>course-hub</name>
+    <name>education-hub</name>
     <packaging>pom</packaging>
 
     <modules>
