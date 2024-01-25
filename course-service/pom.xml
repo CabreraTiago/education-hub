@@ -8,7 +8,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <groupId>com.course-hub.course</groupId>
-    <artifactId>course-hub-course</artifactId>
+    <artifactId>course-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>course-hub-course</name>
     <description>Course Hub Course</description>

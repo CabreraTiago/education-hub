@@ -18,11 +18,11 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>course-hub-gateway</module>
-        <module>course-hub-eureka</module>
-        <module>course-hub-config</module>
-        <module>course-hub-student</module>
-        <module>course-hub-course</module>
+        <module>gateway-service</module>
+        <module>eureka-service</module>
+        <module>config-service</module>
+        <module>student-service</module>
+        <module>course-service</module>
     </modules>
 
     <properties>
