@@ -1,0 +1,22 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: students
+          uri: http://localhost:8090
+          predicates:
+            - Path=/students/**
+        - id: courses
+          uri: http://localhost:9090
+          predicates:
+            - Path=/courses/**
+eureka:
+  client:
+    register-with-eureka: false
